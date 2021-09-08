@@ -5,7 +5,7 @@
           "babel-plugin-file-loader",
           {
             "extensions": ["otf", "eot", "woff", "woff2", "png", "jpg", "svg", "mp4", "gif", "ico"],
-            "publicPath": "/static/",
+            "publicPath": "https://static-nalula.s3.amazonaws.com/dev/_next/static/",
             "outputPath": "static/",
             "name": "[path][name].[ext]/[hash].[ext]",
             "context": "babelrc"

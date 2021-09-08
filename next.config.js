@@ -20,7 +20,7 @@ config.module.rules.push(
           options: {
             outputPath: '../static/',
             name: '[path][name].[ext]/[hash].[ext]',
-            publicPath: '/static/',
+            publicPath: 'https://static-nalula.s3.amazonaws.com/dev/_next/static/',
           },
         },
       ],
