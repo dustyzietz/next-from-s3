@@ -1,5 +1,4 @@
 import Link from 'next/link'
-
 import Head from 'next/head'
 
 export default function Home() {
@@ -51,6 +50,11 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <img
+    src="/images/galadorn.jpg" // Route of the image file
+    
+    alt="Galadorn"
+  />
       </main>
 
       <footer>
